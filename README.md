@@ -1,16 +1,5 @@
 # AES; Advanced Encryption Standard
 
-[![PyPI](https://img.shields.io/pypi/v/aes)](https://pypi.org/project/aes/) 
-[![Downloads](https://pepy.tech/badge/aes)](https://pypi.org/project/aes/)
-[![GitHub](https://img.shields.io/github/license/donggeunkwon/aes)](https://github.com/donggeunkwon/aes/blob/master/LICENSE)
-
-A simple package for Advanced Encryption Standard(AES) Block Cipher [[pdf](http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf)]
-
-Version 1.2.0 is available. In this version, AES-128, 192, 256 with ECB, CBC, CTR mode are now supported!
-
-## Install
-
-You can easily install from PyPI.
 
 ```bash
 $ pip install aes
@@ -107,13 +96,8 @@ Don't forget to take the IV.
 print(cipher.iv) # save it!
 ```
 
-------
-### Version Summary
-- v1.0.0 
-- v1.0.1
-  + Bug reported "__ModuleNotFoundError__", and fixed in this version.
-- v1.2.0
-  + Added AES-192, 256 and CBC, CTR mode.
+Version Update
++ Added AES-192, 256 and CBC, CTR mode.
 
 ------
 ### Report a bug to
